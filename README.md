@@ -53,7 +53,7 @@
 <!-- live demo -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Not available
+N/A
 
 <!-- GETTING STARTED -->
 

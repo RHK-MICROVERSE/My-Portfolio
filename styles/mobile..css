@@ -3,13 +3,14 @@
   margin: 0;
 }
 
-.mobile-nav {
-  background-color: #3c3a39;
+.mobile-header {
+  background-color: #1C1A19;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 .logo {
@@ -25,7 +26,7 @@
 }
 
 .hum {
-  padding: 12px 36px 0 24px;
+  padding: 9px 36px 0 24px;
 }
 
 .container {
@@ -82,8 +83,9 @@
 
 .social-media {
   display: flex;
-  flex-direction: row;
+  flex-flow: row warp;
   align-items: center;
   width: 200px;
   height: 40px;
+  justify-content: space-between;
 }
