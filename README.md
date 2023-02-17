@@ -2,10 +2,10 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./rhk-trading-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>README</b></h3>
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
@@ -32,11 +32,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 > Mobile version of my personal portfolio.
 
-**[Portfolio]** is a page that show you project to visitor that I have worked on.
 
 ## 🛠 Built With <a name="built-with"></a>
 
