@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="./rhk-trading-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/rhk-trading-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>My Portfolio</b></h3>
