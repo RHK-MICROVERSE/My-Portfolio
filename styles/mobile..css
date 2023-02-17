@@ -3,13 +3,14 @@
   margin: 0;
 }
 
-.mobile-nav {
-  background-color: #3c3a39;
+.mobile-header {
+  background-color: #1c1a19;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 24px;
   padding-bottom: 24px;
+  align-items: center;
 }
 
 .logo {
@@ -25,7 +26,7 @@
 }
 
 .hum {
-  padding: 12px 36px 0 24px;
+  padding: 9px 36px 0 24px;
 }
 
 .container {
@@ -33,7 +34,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-  gap: 20px;
+  gap: 35px;
   height: 100vh;
   background-image: url(../images/Illustration-header.png);
   background-position: right bottom;
@@ -46,7 +47,7 @@
   color: #ff6b00;
   font-family: Crete 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-size: 46px; /* Original in figma is 56px */
+  font-size: 46px;
   font-weight: 400;
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
@@ -62,13 +63,11 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 22px; /* Original in figma is 24px */
+  font-size: 22px;
   line-height: 32px;
   align-items: center;
   width: 327px;
   height: 27px;
-  top: 256px;
-  left: 24px;
 }
 
 .description {
@@ -80,14 +79,24 @@
   line-height: 24px;
   width: 327px;
   height: 123px;
-  top: 295px;
-  left: 24px;
+  padding-top: 10px;
 }
 
 .social-media {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 0;
   width: 200px;
-  height: 40px;
+  height: 60px;
+  justify-content: space-between;
+}
+
+ul#horizontal-list {
+  display: flex;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin: 0 10px;
 }
