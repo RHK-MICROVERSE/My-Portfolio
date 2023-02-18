@@ -12,6 +12,7 @@
   padding-top: 24px;
   padding-bottom: 24px;
   align-items: center;
+  width: 423px;
 }
 
 .logo {
@@ -42,6 +43,7 @@
   background-size: 217px;
   background-repeat: no-repeat;
   background-color: black;
+  width: 375px;
 }
 
 .primary-text1 {
@@ -102,15 +104,16 @@ ul#horizontal-list li {
   margin: 0 10px;
 }
 
-/* STARTING THE NEW SECTIONS */
+/* STARTING THE MIDDLE SECTIONS */
 
 .middle-section {
   display: grid;
   height: 100vh;
   background-color: #e5e5e5;
+  width: 375px;
 }
 
-.mrw {
+.my-recent-work {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -139,7 +142,7 @@ ul#horizontal-list li {
   padding-top: 80px;
 }
 
-.mps {
+.multi-post-stories {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -169,6 +172,7 @@ ul#horizontal-list li {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  list-style-type: none;
 }
 
 .box1 {
@@ -212,7 +216,7 @@ ul#horizontal-list li {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 44px;
   padding-top: 84px;
 }
@@ -256,21 +260,25 @@ ul#horizontal-list li {
 /* ABOUT ME */
 .aboutme {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-color: #1c1a19;
   background-image: url(../images/illustration-about-me-mobile.png);
   background-position: right bottom;
   background-size: 217px;
   background-repeat: no-repeat;
+  width: 375px;
 }
 
-.primary-text2 {
+.greetings2 {
   color: #ff6b00;
   font-family: Crete 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-size: 46px;
+  font-size: 76px;
   font-weight: 400;
-  line-height: 64px;
+  line-height: 88px;
   letter-spacing: 0.3700000047683716px;
+  text-align: left;
   width: 327px;
   height: 79px;
   padding-top: 120px;
@@ -318,9 +326,9 @@ ul#horizontal-list li {
 
 /* SKILL */
 .skill-master {
+  display: flex;
   padding-top: 136px;
   background-color: #1c1a19;
-  display: flex;
   flex-direction: column;
   color: white;
   align-items: center;
@@ -328,67 +336,39 @@ ul#horizontal-list li {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+  width: 375px;
 }
 
 .base {
-  padding-left: 12px;
+  padding-left: 0;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  list-style-type: none;
+  padding-bottom: 25px;
 }
 
 /* LANGUAGE */
-.sqr-lan {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  height: 24px;
-  padding-bottom: 30px;
-}
-
-.sqr-language {
-  width: 18px;
-  height: 18px;
-  background-color: #ff6b00;
-  transform: rotate(-45deg);
+.diff-language {
+  list-style-type: none;
 }
 
 /* FRAMEWORK */
-.sqr-frame {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  height: 24px;
-  padding-top: 38px;
-  padding-bottom: 30px;
+.diff-framework {
+  list-style-type: none;
+  padding-top: 30px;
 }
 
-.sqr-framework {
-  width: 18px;
-  height: 18px;
-  background-color: #ff6b00;
+.icon-rectangle {
+  padding-right: 8px;
 }
 
 /* SKILLS */
-.circle-sk {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
-  height: 24px;
-  padding-top: 38px;
-  padding-bottom: 30px;
-}
-
-.circle-skills {
-  width: 18px;
-  height: 18px;
-  border-radius: 150px;
-  background-color: #ff6b00;
+.diff-skills {
+  list-style-type: none;
+  padding-top: 30px;
 }
 
 /* GET IN TOUCH WITH ME */
@@ -396,6 +376,7 @@ ul#horizontal-list li {
   background-color: white;
   display: flex;
   flex-direction: column;
+  width: 375px;
 }
 
 .description5 {
