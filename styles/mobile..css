@@ -387,29 +387,44 @@ ul#horizontal-list li {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
+  padding-bottom: 58px;
 }
 
-/* FORM */
-.get-in-touch-form {
+/* FORM starts here */
+
+.getintouch {
   color: #979493;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
   gap: 24px;
-  padding-top: 58px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
+form {
+  margin: 0 auto;
+  width: 400px;  
+  padding-left: 1em;
+}
+
+
+.ul-form {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 .common {
   width: 295px;
-  height: 18px;
+  height: 24px;
   background-color: white;
   border: none;
+  margin-top: 30px;
+  padding-left: 5px;
 }
 
 .line {
@@ -418,14 +433,20 @@ ul#horizontal-list li {
   background-color: #dbd8d7;
 }
 
-.textArea {
+.textarea {
   width: 327px;
   height: 114px;
-  color: fbf8f7;
+  color: #3C3A39;
   background: #fbf8f7;
   border: none;
+  margin-top: 40px;
+  padding: 12px;
 }
 
+.button {
+  padding-left: 90px; 
+  margin-top: 20px;
+}
 .btn-get {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -439,6 +460,13 @@ ul#horizontal-list li {
   color: white;
   margin-bottom: 120px;
 }
+
+.btn-get:hover {
+  background-color: #4CAF50;
+}
+
+
+/* The form Ends here */
 
 .line-footer {
   width: 375px;

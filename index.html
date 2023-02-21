@@ -295,26 +295,55 @@
     </ul>
   </section>
 
-  <!-- Get In Touch-->
+  
   <section class="getintouch">
     <div class="sup-txt3">
       <p class="description5">
         I'm always interested in hearing about new projects, so if you'd like to chat please get in touch with me.
       </p>
     </div>
-    <form  method="post" class="get-in-touch-form">
-      <input class="common" type="text" placeholder="Full name" maxlength="30" name="fullname" required class="Name"/>
-        <!--Creating A line divider-->
-        <div class="line"></div>
-      <input class="common" type="email" placeholder="Email address" name="email" id="user-email" required />
-                <!--Creating A line divider-->
-        <div class="line"></div>
-      <textarea placeholder="Enter text here" id="" class="textArea" maxlength="500" name="comment"
-        required></textarea>
-      <button type="submit" class="btn-get">Get in touch</button>
+    <!-- Get In Touch Form STARTs here-->
+    <form  id="get-in-touch" action="https://formspree.io/f/mnqydzlw" method="post">
+      <!--Define the Full Name input-->
+      <ul class = "ul-form">
+        <li>
+          <input class="common" type="text" 
+                                placeholder="Full name" 
+                                maxlength="30"
+                                name="fullname" 
+                                required 
+                                class="Name"/>
+        </li>
+          <!--Creating A line divider-->
+          <div class="line"></div>
+          <!--Define the email input-->
+        <li>
+          <input class="common" type="email"
+                                placeholder="Email address"
+                                name="email" 
+                                required
+                                id="user-email" 
+                                />
+        </li>
+          <!--Creating A line divider-->
+          <div class="line"></div>
+          <!--Define Input Text Area-->
+        <li>
+          <textarea class ="textarea" 
+                    placeholder="Enter text here"
+                    name="user-message"
+                    maxlength="500"
+                     required></textarea>
+        </li>
+        <li class="button">
+          <button type="submit"
+                  class="btn-get">Get in touch</button>
+        </li>
+      </ul>
     </form>
-    <div class="line-footer"></div>
+    <!-- Get In Touch From ENDS-->
 
+    <div class="line-footer"></div>
     <!-- Social Media-->
     <div class="social-media-footer">
       <ul id="footer-list">
