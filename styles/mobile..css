@@ -196,6 +196,18 @@ ul#horizontal-list li {
   height: 48px;
   border: none;
   color: white;
+  border: 2px solid #ff6b00;
+}
+
+.btn1:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn1:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
+  color: white;
 }
 
 /* Card  Starts Here */
@@ -250,6 +262,17 @@ ul#horizontal-list li {
   width: 343px;
   height: 48px;
   border: none;
+  color: white;
+  border: 2px solid #ff6b00;
+}
+.btn2:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn2:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
@@ -313,6 +336,17 @@ ul#horizontal-list li {
   width: 161px;
   height: 48px;
   border: none;
+  color: white;
+  border: 2px solid #ff6b00;
+}
+.btn3:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn3:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
@@ -390,6 +424,7 @@ ul#horizontal-list li {
   padding-bottom: 58px;
   padding-left: 24px;
   padding-right: 24px;
+  color: #172B4D;
 }
 
 /* FORM starts here */
