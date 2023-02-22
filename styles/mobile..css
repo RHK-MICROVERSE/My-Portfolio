@@ -388,6 +388,8 @@ ul#horizontal-list li {
   line-height: 44px;
   text-align: center;
   padding-bottom: 58px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* FORM starts here */
@@ -457,18 +459,25 @@ form {
   background-color: #ff6b00;
   width: 161px;
   height: 48px;
-  border: none;
+  border: 2px solid #ff6b00;
   color: white;
-  margin-bottom: 120px;
 }
 
 .btn-get:hover {
-  background-color: #4caf50;
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn-get:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
+  color: white;
 }
 
 /* The form Ends here */
 
 .line-footer {
+  margin-top: 120px;
   width: 375px;
   height: 1px;
   background-color: #dbd8d7;
