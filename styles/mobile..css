@@ -194,7 +194,18 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 124px;
   height: 48px;
-  border: none;
+  border: 2px solid #ff6b00;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn1:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
@@ -249,7 +260,18 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 343px;
   height: 48px;
-  border: none;
+  border: 2px solid #ff6b00;
+  color: white;
+}
+
+.btn2:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn2:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
@@ -312,7 +334,18 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 161px;
   height: 48px;
-  border: none;
+  border: 2px solid #ff6b00;
+  color: white;
+}
+
+.btn3:hover {
+  background-color: rgb(254, 246, 224);
+  color: #ff6b00;
+}
+
+.btn3:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
