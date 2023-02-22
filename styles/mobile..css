@@ -194,7 +194,6 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 124px;
   height: 48px;
-  border: none;
   color: white;
   border: 2px solid #ff6b00;
 }
@@ -261,10 +260,10 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 343px;
   height: 48px;
-  border: none;
   color: white;
   border: 2px solid #ff6b00;
 }
+
 .btn2:hover {
   background-color: rgb(254, 246, 224);
   color: #ff6b00;
@@ -335,10 +334,10 @@ ul#horizontal-list li {
   background-color: #ff6b00;
   width: 161px;
   height: 48px;
-  border: none;
   color: white;
   border: 2px solid #ff6b00;
 }
+
 .btn3:hover {
   background-color: rgb(254, 246, 224);
   color: #ff6b00;
@@ -424,7 +423,7 @@ ul#horizontal-list li {
   padding-bottom: 58px;
   padding-left: 24px;
   padding-right: 24px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 /* FORM starts here */
