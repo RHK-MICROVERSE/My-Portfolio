@@ -9,14 +9,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  height:72px;
   align-items: center;
-  width: 423px;
 }
-
+.desktop-header {
+  display: none;
+}
 .logo {
-  padding: 12px 0 0 24px;
+  padding-left:24px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -26,9 +26,8 @@
   text-align: center;
   color: white;
 }
-
 .hum {
-  padding: 9px 36px 0 24px;
+  padding: 7px 36px 0 24px;
 }
 
 .container {
@@ -43,7 +42,6 @@
   background-size: 217px;
   background-repeat: no-repeat;
   background-color: black;
-  width: 375px;
 }
 
 .primary-text1 {
@@ -55,10 +53,7 @@
   line-height: 64px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
-  width: 327px;
-  height: 124px;
-  top: 120px;
-  left: 24px;
+  padding-bottom: 12px;
 }
 
 .support-text1 {
@@ -69,8 +64,7 @@
   font-size: 22px;
   line-height: 32px;
   align-items: center;
-  width: 327px;
-  height: 27px;
+  padding-bottom: 12px;
 }
 
 .description1 {
@@ -80,8 +74,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  width: 327px;
-  height: 123px;
   padding-top: 10px;
 }
 
@@ -90,8 +82,6 @@
   flex-direction: row;
   align-items: center;
   padding: 0;
-  width: 200px;
-  height: 60px;
   justify-content: space-between;
 }
 
@@ -104,13 +94,12 @@ ul#horizontal-list li {
   margin: 0 10px;
 }
 
-/* STARTING THE MIDDLE SECTIONS */
 
+/* STARTING THE MIDDLE SECTIONS */
 .middle-section {
   display: grid;
   height: 100vh;
   background-color: #e5e5e5;
-  width: 375px;
 }
 
 .my-recent-work {
@@ -127,19 +116,20 @@ ul#horizontal-list li {
   padding-left: 36px;
 }
 
-.mid-border {
-  padding-left: 36px;
-  width: 327px;
-}
-
-.feature-image {
-  padding-right: 24px;
-  padding-top: 12px;
+.my-recent-work-border-mobile {
   padding-left: 24px;
 }
+.my-recent-work-border-desktop {
+  display: none;
+}
 
-.img1 {
+
+.img2-desktop {
+  display: none;
+}
+.img1-mobile {
   padding-top: 80px;
+  padding-left: 24px;
 }
 
 .multi-post-stories {
@@ -149,6 +139,7 @@ ul#horizontal-list li {
   font-size: 32px;
   line-height: 44px;
   padding-top: 24px;
+  padding-left: 24px;
 }
 
 .description2 {
@@ -158,8 +149,8 @@ ul#horizontal-list li {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  width: 327px;
-  height: 147px;
+  padding-bottom: 10px;
+  padding-left: 24px;
 }
 
 .wrapper1 {
@@ -173,6 +164,7 @@ ul#horizontal-list li {
   font-size: 15px;
   line-height: 20px;
   list-style-type: none;
+  padding-left: 24px;
 }
 
 .box1 {
@@ -183,6 +175,7 @@ ul#horizontal-list li {
 
 .see-project-btn {
   padding-top: 12px;
+  padding-left: 24px;
 }
 
 .btn1 {
@@ -212,14 +205,13 @@ ul#horizontal-list li {
 /* Card  Starts Here */
 .cards-details {
   margin-top: 24px;
-  padding-left: 24px;
+  padding-left: 20px;  
 }
 
 .card-container {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/card-img.png);
   height: 386px;
   width: 327px;
-  padding-left: 16px;
 }
 
 .title2 {
@@ -227,28 +219,30 @@ ul#horizontal-list li {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 44px;
+  font-size: 16px;
+  line-height: 36px;
   padding-top: 84px;
+  padding-left: 16px;
 }
 
 .description3 {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 22px;
   color: #fff;
-  width: 327px;
-  height: 87px;
   padding-top: 12px;
+  padding-left: 16px;
+  
 }
 
 .box2 {
+  margin-top: 10px;
   color: #fff;
   padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
-  padding-top: 12px;
+  margin-bottom: 15px;
 }
 
 .btn2 {
@@ -258,10 +252,12 @@ ul#horizontal-list li {
   font-size: 17px;
   line-height: 24px;
   background-color: #ff6b00;
-  width: 343px;
+  width: 327px;
   height: 48px;
   border: 2px solid #ff6b00;
   color: white;
+  padding-left: none;
+  margin-top: 18.5px;
 }
 
 .btn2:hover {
@@ -275,9 +271,14 @@ ul#horizontal-list li {
   color: white;
 }
 
-.empty-divider {
+.empty-divider3 {
   padding-top: 80px;
 }
+
+
+
+
+
 
 /* ABOUT ME */
 .aboutme {
@@ -285,11 +286,10 @@ ul#horizontal-list li {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
-  background-image: url(../images/illustration-about-me-mobile.png);
+  background-image: url(../images/bg-about-me-mobile.png);
   background-position: right bottom;
   background-size: 217px;
   background-repeat: no-repeat;
-  width: 375px;
 }
 
 .greetings2 {
@@ -301,8 +301,6 @@ ul#horizontal-list li {
   line-height: 88px;
   letter-spacing: 0.3700000047683716px;
   text-align: left;
-  width: 327px;
-  height: 79px;
   padding-top: 120px;
   padding-left: 24px;
 }
@@ -314,8 +312,6 @@ ul#horizontal-list li {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  width: 327px;
-  height: 87px;
   padding-top: 12px;
   padding-left: 24px;
 }
@@ -350,11 +346,14 @@ ul#horizontal-list li {
 }
 
 .line-divider {
-  padding-top: 158px;
+  padding-top: 380px;
   align-items: center;
   padding-left: 24px;
   padding-right: 24px;
   width: 327px;
+}
+.about-me-line-desktop {
+  display: none;
 }
 
 /* SKILL */
@@ -369,7 +368,6 @@ ul#horizontal-list li {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  width: 375px;
 }
 
 .base {
@@ -409,7 +407,6 @@ ul#horizontal-list li {
   background-color: white;
   display: flex;
   flex-direction: column;
-  width: 375px;
 }
 
 .description5 {
@@ -511,7 +508,6 @@ form {
 
 .line-footer {
   margin-top: 120px;
-  width: 375px;
   height: 1px;
   background-color: #dbd8d7;
 }

@@ -1,0 +1,219 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mobile-header {
+  display: none;
+}
+.desktop-header {
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+  color:white;
+  padding-right: 156px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+}
+ul#desktop-nav-list li {
+  display: inline;
+  margin: 0 10px;
+  list-style: none;
+}
+
+
+.container {
+  flex-direction: row;
+  background-image: url(../images/Illustration-header.png);
+  background-position: right top;
+  background-size: 42%;  
+}
+.social-media {
+  order: 0;
+}
+ul#horizontal-list {
+  flex-direction: column;
+  padding-top: 70px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin: 10px;
+}
+.sub-container {
+  flex: 1;
+  order: 1;
+  max-width: 475px;
+}
+.primary-text1 {
+  color: #F55800;
+  font-family: Crete 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-size: 68px;
+  line-height: 78px;
+  padding-bottom: 24px;
+  order: 0;
+  letter-spacing: 0.7px;
+}
+.empty-divider1 {
+  padding-top: 20px;
+}
+.support-text1 {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  padding-bottom: 24px;
+  order: 1;
+ 
+}
+.description1 {
+  color: #F4F5F7;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  order: 2;
+}
+.my-recent-work-top {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  padding-left: 107px;
+}
+.my-recent-work {
+  color: #091E42;
+  order: 0;
+  min-width: 325px;
+}
+.my-recent-work-border-mobile {
+  display: none;
+}
+.my-recent-work-border-desktop {
+  display: block;
+  padding-top: 138px;
+  align-self: left;
+}
+.desktop-my-recent-work-border {
+  max-width: 720px;
+}
+
+
+
+.my-recent-wrok-buttom {
+  display: flex;
+}
+.img2-desktop {
+  display: block;
+  padding-left: 130px;
+}
+.img1-mobile {
+  display: none;
+}
+
+/* Card  Starts Here */
+.card-master {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 24px;
+  padding-left: 80px; 
+
+}
+
+.aboutme {
+  background-image: url(../images/bg-about-me-desktop.png);
+  background-position: center right ;
+  background-size: 35%;
+  background-color: #262626;;
+}
+.greetings2 {
+  color: #F55800;  
+  font-size: 72px;  
+  line-height: 82px;
+  padding-top: 130px;
+  padding-left: 100px;
+  order: 0;
+}
+.description4 {
+  font-size: 20px;
+  line-height: 32px;
+  color: #F4F5F7;
+  order: 1;
+  padding-top: 20px;
+  padding-left: 100px;
+  max-width: 430px;
+}
+.aboutme-btn {
+  padding-top: 24px;
+  padding-left: 100px;
+}
+.about-me-line-mobile {
+  display: none;
+}
+.about-me-line-desktop {
+  display: block;
+}
+.desktop-about-me-line {
+  max-width: 1020px;
+}
+
+/* NEEDS TO BE FIXED */
+.line-divider {
+  padding-top: 180px;
+  align-items: center;
+  padding-left: 100px;
+  width: 300px;
+}
+
+
+/* SKILL */
+.skill-master {
+  padding-top: 136px;
+  background-color: #262626;;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  padding-left: 100px;
+  padding-right: 200px;
+  padding-bottom: 100px;
+}
+
+
+
+.get-intouch-top {
+  display: flex;
+  flex-direction: row;
+  margin-top: 130px;
+  padding-left: 80px;
+  justify-content: space-between;
+
+}
+
+.description5 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
+  text-align: left;
+  max-width: 455px;
+}
+form {
+  padding-left: none;
+}
+.from-details {
+  padding-top: 100px;
+}
+
+.shape {
+  display: none;
+}
