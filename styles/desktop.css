@@ -26,10 +26,35 @@
 }
 
 ul#desktop-nav-list li {
-  display: inline;
-  margin: 0 10px;
+  animation: reverse;
+  display: inline-flex;
+  margin: 0 20px;
   list-style: none;
+  cursor: pointer;
+  transition: transform 1s;
 }
+
+ul#desktop-nav-list > li:hover {
+  color: #ee5425;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* ul#desktop-nav > li {
+  border-bottom: 3px solid rgb(38, 38, 39);
+  position: relative;
+  padding-bottom: 0.3vh;
+}
+
+ul#desktop-nav > li::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 3px solid #55648b;
+  width: 75%;
+} */
 
 .container {
   flex-direction: row;
