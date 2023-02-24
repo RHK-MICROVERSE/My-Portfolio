@@ -9,14 +9,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:72px;
+  height: 72px;
   align-items: center;
 }
+
 .desktop-header {
   display: none;
 }
+
 .logo {
-  padding-left:24px;
+  padding-left: 24px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -26,6 +28,7 @@
   text-align: center;
   color: white;
 }
+
 .hum {
   padding: 7px 36px 0 24px;
 }
@@ -94,7 +97,6 @@ ul#horizontal-list li {
   margin: 0 10px;
 }
 
-
 /* STARTING THE MIDDLE SECTIONS */
 .middle-section {
   display: grid;
@@ -119,14 +121,15 @@ ul#horizontal-list li {
 .my-recent-work-border-mobile {
   padding-left: 24px;
 }
+
 .my-recent-work-border-desktop {
   display: none;
 }
 
-
 .img2-desktop {
   display: none;
 }
+
 .img1-mobile {
   padding-top: 80px;
   padding-left: 24px;
@@ -205,7 +208,7 @@ ul#horizontal-list li {
 /* Card  Starts Here */
 .cards-details {
   margin-top: 24px;
-  padding-left: 20px;  
+  padding-left: 20px;
 }
 
 .card-container {
@@ -234,7 +237,6 @@ ul#horizontal-list li {
   color: #fff;
   padding-top: 12px;
   padding-left: 16px;
-  
 }
 
 .box2 {
@@ -274,11 +276,6 @@ ul#horizontal-list li {
 .empty-divider3 {
   padding-top: 80px;
 }
-
-
-
-
-
 
 /* ABOUT ME */
 .aboutme {
@@ -352,6 +349,7 @@ ul#horizontal-list li {
   padding-right: 24px;
   width: 327px;
 }
+
 .about-me-line-desktop {
   display: none;
 }
