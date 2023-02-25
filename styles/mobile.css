@@ -212,6 +212,8 @@ ul#top-page-social-media-list li {
 
 /* Card  Starts Here */
 .card-master {
+  display: grid;
+  grid-template-columns: auto;
   padding-left: 30px;
   padding-right: 30px;
 }
