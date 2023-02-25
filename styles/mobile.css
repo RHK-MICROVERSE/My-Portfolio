@@ -9,42 +9,46 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height:72px;
+  height: 72px;
   align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 .desktop-header {
   display: none;
 }
-.logo {
-  padding-left:24px;
+
+.mobile-logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  align-items: center;
-  text-align: center;
   color: white;
 }
-.hum {
-  padding: 7px 36px 0 24px;
+
+.mobile-nav {
+  padding: 9px 0 0 24px;
 }
 
-.container {
+/* -------------------------------------- */
+
+.top-page-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 120px 24px;
+  padding: 120px 0 0 30px;
   gap: 35px;
   height: 100vh;
-  background-image: url(../images/Illustration-header.png);
-  background-position: right bottom;
-  background-size: 217px;
+  background-image: url(../images/2_top_page_bg_img.png);
+  background-position: bottom right;
+  background-size: 60%;
   background-repeat: no-repeat;
   background-color: black;
 }
 
-.primary-text1 {
+.top-page-title {
   color: #ff6b00;
   font-family: Crete 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -56,7 +60,11 @@
   padding-bottom: 12px;
 }
 
-.support-text1 {
+.top-page-empty-divider {
+  padding-top: 4px;
+}
+
+.top-page-profession {
   color: #fff5e1;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
@@ -67,7 +75,7 @@
   padding-bottom: 12px;
 }
 
-.description1 {
+.top-page-description {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -75,9 +83,10 @@
   font-size: 16px;
   line-height: 24px;
   padding-top: 10px;
+  max-width: 330px;
 }
 
-.social-media {
+.top-page-social-media {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -85,51 +94,52 @@
   justify-content: space-between;
 }
 
-ul#horizontal-list {
+ul#top-page-social-media-list {
   display: flex;
 }
 
-ul#horizontal-list li {
+ul#top-page-social-media-list li {
   display: inline;
   margin: 0 10px;
 }
 
+/* Top page ends above */
 
-/* STARTING THE MIDDLE SECTIONS */
-.middle-section {
-  display: grid;
-  height: 100vh;
+.my-recent-work {
+  display: flex;
+  flex-direction: column;
   background-color: #e5e5e5;
 }
 
-.my-recent-work {
+.my-recent-work-top {
+  display: flex;
+  flex-direction: column;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  display: flex;
-  align-items: center;
-  padding-top: 120px;
-  padding-right: 24px;
-  padding-bottom: 40px;
-  padding-left: 36px;
+  padding: 120px 30px 0 30px;
 }
 
-.my-recent-work-border-mobile {
-  padding-left: 24px;
-}
-.my-recent-work-border-desktop {
-  display: none;
+.mrw-hz-line {
+  margin-top: 40px;
+  border: none;
+  height: 1px;
+  background-color: black;
 }
 
-
-.img2-desktop {
-  display: none;
+.my-recent-wrok-bottom {
+  padding: 0 30px 0 30px;
 }
-.img1-mobile {
-  padding-top: 80px;
-  padding-left: 24px;
+
+.mrw-img4b-desktop {
+  width: 100%;
+}
+
+.mrw-img4b-desktop img {
+  width: 100%;
+  padding-top: 40px;
 }
 
 .multi-post-stories {
@@ -139,10 +149,9 @@ ul#horizontal-list li {
   font-size: 32px;
   line-height: 44px;
   padding-top: 24px;
-  padding-left: 24px;
 }
 
-.description2 {
+.my-recent-work-description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -150,10 +159,9 @@ ul#horizontal-list li {
   line-height: 24px;
   color: #091e42;
   padding-bottom: 10px;
-  padding-left: 24px;
 }
 
-.wrapper1 {
+.mrw-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -164,10 +172,9 @@ ul#horizontal-list li {
   font-size: 15px;
   line-height: 20px;
   list-style-type: none;
-  padding-left: 24px;
 }
 
-.box1 {
+.mrw-box {
   color: #091e42;
   padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
@@ -175,10 +182,9 @@ ul#horizontal-list li {
 
 .see-project-btn {
   padding-top: 12px;
-  padding-left: 24px;
 }
 
-.btn1 {
+.button-see-project {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -191,30 +197,39 @@ ul#horizontal-list li {
   color: white;
 }
 
-.btn1:hover {
+.button-see-project:hover {
   background-color: rgb(254, 246, 224);
   color: #ff6b00;
 }
 
-.btn1:active {
+.button-see-project:active {
   background-color: rgb(217, 92, 0);
   border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
+/* MY RECENT WORKS ENDS HERE */
+
 /* Card  Starts Here */
+.card-master {
+  display: grid;
+  grid-template-columns: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .cards-details {
   margin-top: 24px;
-  padding-left: 20px;  
+  justify-self: center;
 }
 
 .card-container {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/card-img.png);
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/5_card-img.png);
   height: 386px;
   width: 327px;
 }
 
-.title2 {
+.card-title {
   color: white;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
@@ -225,7 +240,7 @@ ul#horizontal-list li {
   padding-left: 16px;
 }
 
-.description3 {
+.card-description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -234,18 +249,18 @@ ul#horizontal-list li {
   color: #fff;
   padding-top: 12px;
   padding-left: 16px;
-  
 }
 
-.box2 {
+.card-box {
   margin-top: 10px;
   color: #fff;
   padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
   margin-bottom: 15px;
+  margin-left: 12px;
 }
 
-.btn2 {
+.card-button-see-project {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -260,39 +275,38 @@ ul#horizontal-list li {
   margin-top: 18.5px;
 }
 
-.btn2:hover {
+.card-button-see-project:hover {
   background-color: rgb(254, 246, 224);
   color: #ff6b00;
 }
 
-.btn2:active {
+.card-button-see-project:active {
   background-color: rgb(217, 92, 0);
   border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
+/* Card ends above */
+
 .empty-divider3 {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
-
-
-
-
-
-/* ABOUT ME */
-.aboutme {
+/* ABOUT ME STARTS HERE */
+.about-me {
   height: 100vh;
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
-  background-image: url(../images/bg-about-me-mobile.png);
-  background-position: right bottom;
+  background-image: url(../images/6a_bg-about-me-mobile.png);
+  background-position: bottom right;
   background-size: 217px;
   background-repeat: no-repeat;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.greetings2 {
+.about-me-greetings {
   color: #ff6b00;
   font-family: Crete 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: normal;
@@ -302,10 +316,9 @@ ul#horizontal-list li {
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   padding-top: 120px;
-  padding-left: 24px;
 }
 
-.description4 {
+.about-me-description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -313,15 +326,13 @@ ul#horizontal-list li {
   line-height: 24px;
   color: #fff;
   padding-top: 12px;
-  padding-left: 24px;
 }
 
-.aboutme-btn {
+.about-me-btn {
   padding-top: 50px;
-  padding-left: 24px;
 }
 
-.btn3 {
+.button-get-my-resume {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -334,40 +345,42 @@ ul#horizontal-list li {
   color: white;
 }
 
-.btn3:hover {
+.button-get-my-resume:hover {
   background-color: rgb(254, 246, 224);
   color: #ff6b00;
 }
 
-.btn3:active {
+.button-get-my-resume:active {
   background-color: rgb(217, 92, 0);
   border: 2px solid rgb(217, 92, 0);
   color: white;
 }
 
-.line-divider {
-  padding-top: 380px;
-  align-items: center;
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 327px;
-}
-.about-me-line-desktop {
-  display: none;
+.about-me-horizontal-line {
+  background-color: #1c1a19;
 }
 
-/* SKILL */
-.skill-master {
+.about-me-hz-line {
+  border: none;
+  height: 1px;
+  width: auto;
+  align-items: center;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills-master {
   display: flex;
-  padding-top: 136px;
-  background-color: #1c1a19;
   flex-direction: column;
+  background-color: #1c1a19;
   color: white;
   align-items: center;
   text-align: center;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+  padding-top: 80px;
 }
 
 .base {
@@ -507,6 +520,8 @@ form {
 /* The form Ends here */
 
 .line-footer {
+  display: grid;
+  grid-template-columns: auto;
   margin-top: 120px;
   height: 1px;
   background-color: #dbd8d7;
@@ -529,5 +544,10 @@ ul#footer-list li {
 }
 
 .shape {
-  align-self: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
