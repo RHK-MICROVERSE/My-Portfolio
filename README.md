@@ -34,14 +34,13 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> Mobile version of my personal portfolio.
-
+> My Portfolio
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I have used HTML and CSS
+> HTML and CSS have been used so far
 
 <details>
   <summary>Client</summary>
@@ -57,6 +56,7 @@ N/A
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+### Hi, there, I'm Rassel - aka [Full Stack Developer] [Please check my portfolio](https://rhk-microverse.github.io/My-Portfolio/)
 
 > You can use this personal portfolio to show clients and programmers on project you worked on and you are currently working on.
 
@@ -87,14 +87,16 @@ Clone this repository to your desired folder:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+## 👥 Authors <a name="Rassel Hassan Kadir"></a>
+- Main Author: Rassel Hassan Kadir
+> List of the collaborators of this project.
+- [Joseph Ddiiro](https://github.com/Ddiiro)
 
 👤 **Rassel Hassan Kadir**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/rhk_trading)
+- Linkedin: [@linkedinhandle](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +114,7 @@ Feel free to check the [issues page](https://github.com/RHK-MICROVERSE/My-Portfo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is under [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
