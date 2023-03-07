@@ -44,6 +44,7 @@
   right: 0.001px;
   background-color: #3c3a39;
   z-index: 3;
+  padding: 0 2rem;
 }
 
 .mobile-menu-active {
@@ -54,6 +55,33 @@
   right: 0.001px;
   background-color: #e5e5e5;
   z-index: 2;
+}
+
+.mobile-menu-active ul li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.mobile-menu-active ul li a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.mobile-menu-active ul li {
+  margin-top: 2rem;
 }
 
 /* END OF STYLE FOR MOBILE MENU */
