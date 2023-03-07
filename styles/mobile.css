@@ -65,6 +65,7 @@
   line-height: 44px;
   color: #3a4a42;
   list-style: none;
+  margin-top: 2rem;
 }
 
 .mobile-menu ul li a {
@@ -79,10 +80,6 @@
   color: #fff5e1;
   padding-left: 2rem;
   margin-bottom: -1rem;
-}
-
-.mobile-menu ul li {
-  margin-top: 2rem;
 }
 
 .close-menu {
