@@ -85,10 +85,18 @@
   margin-top: 2rem;
 }
 
-.close-mobile-menu {
+.close-menu {
   position: absolute;
-  left: 77%;
+  left: 73%;
   top: 2%;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
 }
 
 /* END OF STYLE FOR MOBILE MENU */
