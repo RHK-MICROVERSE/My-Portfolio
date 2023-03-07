@@ -87,8 +87,8 @@
 
 .close-menu {
   position: absolute;
-  left: 73%;
-  top: 2%;
+  left: 65%;
+  top: 3.2%;
 }
 
 .invisible {
@@ -625,4 +625,10 @@ ul#footer-list li {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+@media (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
