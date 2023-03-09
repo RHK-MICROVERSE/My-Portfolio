@@ -132,7 +132,8 @@ function controlMobileMenu() {
     },
     {
       name: "Professional Art Printing Data",
-      description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      description:
+        "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
@@ -166,7 +167,7 @@ function controlMobileMenu() {
     cardContainer.appendChild(cardTitle);
     const cardTitleh1 = document.createElement("h1");
     cardTitle.appendChild(cardTitleh1);
-    cardTitleh1.innerText = detail.name;
+    // cardTitleh1.innerText = detail.name;
 
     const cardSubText = document.createElement("div");
     cardSubText.classList.add("card-sup-txt");
@@ -179,28 +180,61 @@ function controlMobileMenu() {
     const technologies = document.createElement("div");
     technologies.classList.add("technologies");
     const technologiesUl = document.createElement("ul");
-    // technologies.appendChild(technologiesUl)
-    technologiesUl.classList.add("mrw-wrapper");
-    cardContainer.appendChild(technologiesUl);
-
+    // create technologies lists in the card
     detail.technologies.forEach((technology) => {
       const techLi = document.createElement("li");
       technologiesUl.appendChild(techLi);
       techLi.classList.add("card-box");
       techLi.textContent = technology.name;
     });
+    technologiesUl.classList.add("mrw-wrapper");
+    cardContainer.appendChild(technologiesUl);
 
-    const cardProjectButton = document.createElement("div")
-    cardProjectButton.classList.add('card-project-btn')
-    cardContainer.appendChild(cardProjectButton)
+    const cardProjectButton = document.createElement("div");
+    cardProjectButton.classList.add("card-project-btn");
+    cardContainer.appendChild(cardProjectButton);
 
-    const detailButton = document.createElement('button')
-    detailButton.classList.add('card-button-see-project')
-    cardProjectButton.appendChild(detailButton)
-    detailButton.textContent = "See Project"
+    const detailButton = document.createElement("button");
+    detailButton.classList.add("card-button-see-project");
+    cardProjectButton.appendChild(detailButton);
+    detailButton.textContent = "See Project";
 
-
-    // cardContainer.textContent = 'check me'
+    // handle remove technologies lists from popup
+    function removeTechnologiesList() {
+      const technologiesList = document.querySelector("#technologiesList");
+      const removeElement = document.querySelector("#technologiesList li");
+      if (removeElement !== null) technologiesList.removeChild(removeElement);
+    }
+    removeTechnologiesList();
+    // click event for 'See Project'
+    const detailsPopup = document.querySelector("#popup");
+    cardProjectButton.addEventListener("click", () => {
+      detailsPopup.classList.remove("hide");
+      detailsPopup.classList.add("show");
+      // update content of popup based on clicked project card
+      const popupTitle = document.querySelector("#popupTitle");
+      popupTitle.textContent = detail.name;
+      // update technologies lists based on the content on the selected card
+      const technologiesList = document.querySelector("#technologiesList");
+      detail.technologies.forEach((technology) => {
+        const techLi = document.createElement("li");
+        technologiesList.appendChild(techLi);
+        techLi.classList.add("popup-box");
+        techLi.textContent = technology.name;
+      });
+      // update the popup description text based on the projects card text
+      const popupText = document.querySelector("#popup-text p") 
+      popupText.textContent = ""
+      popupText.textContent = detail.description
+    });
+    // handle closing details popup
+    const closePopups = document.querySelector("#close-cross");
+    closePopups.addEventListener("click", () => {
+      detailsPopup.classList.remove("show");
+      detailsPopup.classList.add("hide");
+      // remove technologies list items up on closing the popup
+      removeTechnologiesList();
+    });
   });
 }
 controlMobileMenu();
