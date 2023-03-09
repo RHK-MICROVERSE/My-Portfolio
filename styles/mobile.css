@@ -676,6 +676,23 @@ ul#footer-list li {
   color: #172b4d;
 }
 
+
+.card-container {
+  justify-self: center;
+  height: 100%;
+}
+
+.card-description {
+  width: 80%;
+}
+
+.mrw-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+
 .close-cross {
   margin-top: 12px;
   margin-right: 3rem;

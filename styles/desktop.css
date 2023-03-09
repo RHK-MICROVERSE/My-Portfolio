@@ -179,8 +179,19 @@
     gap: 1rem;
   }
 
-  .cards-details {
+  .card-container {
     justify-self: center;
+    height: 100%;
+  }
+
+  .card-description {
+    width: 80%;
+  }
+
+  .mrw-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
   }
 
   .about-me {
