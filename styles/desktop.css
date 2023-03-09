@@ -263,28 +263,24 @@
     width: 100%;
     padding-left: 24px;
     padding-right: 10px;
-    height: 100vh;
-    margin-bottom: 20px;
     position: fixed;
     z-index: 100;
     top: 0;
     left: 0;
     opacity: 0.9;
     object-fit: cover;
+    overflow: auto;
   }
 
-  .details-popup .popup-container {
+  .popup-container {
     position: absolute;
     max-width: 80%;
     left: 9%;
     top: 8%;
-    padding: 1rem;
     background-color: #fff;
     opacity: 1;
     word-break: normal;
-    overflow: auto;
     word-wrap: break-word;
-    height: 80%;
   }
 
   .popup-top {
@@ -307,6 +303,10 @@
     font-size: 32px;
   }
 
+  #popupTitle {
+    width: 100%;
+  }
+
   .close-cross {
     margin-top: 12px;
   }
@@ -322,12 +322,17 @@
     gap: 24px;
   }
 
+  .snapshot-img {
+    width: 100%;
+  }
+
   .img-snapshot-mobile {
     display: none;
   }
 
   .img-snapshot-desktop {
     display: inline-block;
+    width: 100%;
   }
 
   .text-button {
