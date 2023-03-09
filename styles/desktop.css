@@ -1,6 +1,9 @@
-
 @media screen and (min-width: 768px) {
   .mobile-header {
+    display: none;
+  }
+
+  .mobile-menu {
     display: none;
   }
 
@@ -13,7 +16,7 @@
     align-items: center;
     text-align: center;
     color: white;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -22,7 +25,7 @@
 
   .desktop-logo {
     padding-left: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -64,7 +67,7 @@
 
   .top-page-description {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -98,7 +101,7 @@
   .my-recent-work-top {
     display: flex;
     flex-direction: row;
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -148,7 +151,7 @@
   }
 
   .multi-post-stories {
-    font-family: 'Crete Round', sans-serif;
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 38px;
@@ -157,7 +160,7 @@
   }
 
   .my-recent-work-description {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -176,8 +179,18 @@
     gap: 1rem;
   }
 
-  .cards-details {
+  .card-container {
     justify-self: center;
+    height: 100%;
+  }
+
+  .card-description {
+    width: 80%;
+  }
+
+  .mrw-wrapper {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .about-me {
@@ -241,5 +254,104 @@
 
   .shape {
     display: none;
+  }
+
+  /* Project related to cards */
+
+  .details-popup {
+    background-color: #979493;
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 10px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    object-fit: cover;
+    overflow: auto;
+  }
+
+  .popup-container {
+    position: absolute;
+    max-width: 80%;
+    left: 9%;
+    top: 8%;
+    background-color: #fff;
+    opacity: 1;
+    word-break: normal;
+    word-wrap: break-word;
+  }
+
+  .popup-top {
+    padding: 24px 0 24px 0;
+    height: auto;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .popup-name {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  #popupTitle {
+    width: 100%;
+  }
+
+  .close-cross {
+    margin-top: 12px;
+  }
+
+  .technologies {
+    margin-bottom: 40px;
+    gap: 16px;
+  }
+
+  .img-text-button {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .snapshot-img {
+    width: 100%;
+  }
+
+  .img-snapshot-mobile {
+    display: none;
+  }
+
+  .img-snapshot-desktop {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popup-text {
+    margin-top: 2px;
+    padding-right: 12px;
+  }
+
+  .popup-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    padding-bottom: 5px;
   }
 }

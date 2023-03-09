@@ -18,9 +18,14 @@
     <!--Define The Style Sheet-->
     <link rel="stylesheet" href="./styles/mobile.css" />
     <link rel="stylesheet" href="./styles/desktop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
+    <!--test change-->
     <!--MOBILE NAVGIGATION-->
     <header class="mobile-header">
       <div class="mobile-logo">
@@ -148,9 +153,67 @@
         </div>
       </section>
       <!--TOP PAGE ENDS HERE-->
+      <!-- details popup -->
+      <section>
+        <div class="details-popup hide" id="popup">
+          <div class="popup-container">
+            <div class="sub-popup-container">
+              <div class="popup-top">
+                <div class="popup-name">
+                  <h3 id="popupTitle"></h3>
+                </div>
+                <div class="close-cross" id="close-cross">
+                  <img src="./images/22_x-regular-24.png" alt="icon-cross" />
+                </div>
+              </div>
+              <div>
+                <ul class="technologies" id="technologiesList"></ul>
+              </div>
+              <div class="img-text-button">
+                <div class="snapshot-img">
+                  <img
+                    class="img-snapshot-mobile"
+                    src="./images/21_Snapshoot Portfolio_mobile.png"
+                    alt="snapshot-mobile"
+                  />
+                  <img
+                    class="img-snapshot-desktop"
+                    src="./images/25_Snapshoot Portfolio_desktop.png"
+                    alt="snapshot-desktop"
+                  />
+                </div>
+                <div class="text-button">
+                  <div class="popup-text" id="popup-text">
+                    <p></p>
+                  </div>
+                  <div class="popup-buttons">
+                    <div class="popup-button seelive">
+                      <p>See Live</p>
+                      <i class="see-live"
+                        ><img
+                          class="popup-btn-img"
+                          src="./images/23_see_live.png"
+                          alt="seelive"
+                      /></i>
+                    </div>
+                    <div class="popup-button seesource">
+                      <p>See Source</p>
+                      <i class="see-source"
+                        ><img
+                          class="popup-btn-img"
+                          src="./images/24_see_source.png"
+                          alt="seelive"
+                      /></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!--MY RECENT WORKS STARTS HERE-->
-
       <section class="my-recent-work">
         <div class="my-recent-work-top">
           <div class="my-recent-work-title">
@@ -185,158 +248,13 @@
               <li class="mrw-box ruby">Ruby</li>
             </ul>
             <div class="see-project-btn">
-              <button class="button-see-project">See Project</button>
+              <button class="card-button-see-project">See Project</button>
             </div>
           </div>
         </div>
       </section>
-      <!-- Card Starts here-->
-      <div class="card-master">
-        <!-- Card 1-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- Card 2-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- Card 3-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- Card 4-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- Card 5-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-        <!-- Card 6-->
-        <div class="cards-details">
-          <div class="card-container">
-            <div class="card-title">
-              <h1>Professional Art Printing Data</h1>
-            </div>
-            <div class="card-sup-txt">
-              <p class="card-description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard
-              </p>
-            </div>
-            <div>
-              <ul class="mrw-wrapper">
-                <li class="card-box html">html</li>
-                <li class="card-box bootstrap">bootstrap</li>
-                <li class="card-box ruby">Ruby</li>
-              </ul>
-            </div>
-            <div class="card-project-btn">
-              <button class="card-button-see-project">See Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!--Card Starts Here-->
+      <div class="card-master" id="card-master"></div>
       <!-- Cards End Here-->
 
       <!--Creating A divider-->
