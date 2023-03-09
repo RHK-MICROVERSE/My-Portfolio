@@ -659,6 +659,14 @@ ul#footer-list li {
   height: 100px;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+ 
 .popup-name {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
