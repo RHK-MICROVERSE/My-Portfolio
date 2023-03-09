@@ -616,8 +616,119 @@ ul#footer-list li {
   width: 50%;
 }
 
-@media (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
+/* Project related to cards Starts Here */
+.details-popup {
+  padding-left: 24px;
+  padding-right: 10px;
+  height: 100vh;
+  margin-bottom: 20px;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+
+.popup-top {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.popup-name {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.close-cross {
+  margin-top: 12px;;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  list-style-type: none;
+  margin-bottom: 28px;
+}
+
+.popup-box {
+  color: #3C3A39;;
+  padding: 10px 12px 10px 12px;
+  border: 1px solid #8993a4;
+}
+
+.img-snapshot-desktop {
+  display: none;
+}
+
+.popup-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 28px;
+}
+
+.popup-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 19px; 
+}
+
+.popup-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  background-color: #ff6b00;
+  border: 2px solid #ff6b00;
+  color: white;
+  margin-top: 28px;
+  height: 48px;
+}
+
+.seelive {
+  gap: 12px;
+  width: 134px;
+  padding: 0px 0px 0px 12px;
+}
+
+.seesource {
+  gap: 18px;
+  width: 159px;
+  padding: 0px 0px 0px 12px;
+}
+
+.popup-button:hover {
+  background-color: blue;
+  color: #ff6b00;
+}
+
+.popup-button:active {
+  background-color: rgb(217, 92, 0);
+  border: 2px solid rgb(217, 92, 0);
+  color: white;
 }
