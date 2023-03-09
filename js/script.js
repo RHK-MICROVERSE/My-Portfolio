@@ -37,16 +37,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-1",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -57,16 +54,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-2",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -77,16 +71,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-3",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -97,16 +88,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-4",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -117,16 +105,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-5",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -137,16 +122,13 @@ function controlMobileMenu() {
       img: "./Assets/images/mobile-snapshot-image.svg",
       technologies: [
         {
-          name: "Ruby on rails-6",
-        },
-        {
-          name: "css",
-        },
-        {
-          name: "JavaScript",
-        },
-        {
           name: "html",
+        },
+        {
+          name: "bootstrap",
+        },
+        {
+          name: "Ruby",
         },
       ],
     },
@@ -167,7 +149,7 @@ function controlMobileMenu() {
     cardContainer.appendChild(cardTitle);
     const cardTitleh1 = document.createElement("h1");
     cardTitle.appendChild(cardTitleh1);
-    // cardTitleh1.innerText = detail.name;
+    cardTitleh1.innerText = detail.name;
 
     const cardSubText = document.createElement("div");
     cardSubText.classList.add("card-sup-txt");

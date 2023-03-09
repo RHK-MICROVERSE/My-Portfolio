@@ -271,24 +271,26 @@
     z-index: 100;
     top: 0;
     left: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     opacity: 0.9;
     object-fit: cover;
   }
 
   .details-popup .popup-container {
-    position: relative;
+    position: absolute;
     max-width: 80%;
+    left: 9%;
+    top: 8%;
     padding: 1rem;
     background-color: #fff;
     opacity: 1;
     word-break: normal;
     overflow: auto;
     word-wrap: break-word;
-    height: 70%;
-    width: 90%;
+    /* height: 70%;
+    width: 90%; */
   }
 
   .popup-top {

@@ -676,7 +676,6 @@ ul#footer-list li {
   color: #172b4d;
 }
 
-
 .card-container {
   justify-self: center;
   height: 100%;
@@ -695,7 +694,7 @@ ul#footer-list li {
 
 .close-cross {
   margin-top: 12px;
-  margin-right: 3rem;
+  margin-right: 7rem;
 }
 
 .technologies {
