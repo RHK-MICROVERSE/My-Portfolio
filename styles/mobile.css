@@ -618,14 +618,37 @@ ul#footer-list li {
 
 /* Project related to cards Starts Here */
 .details-popup {
-  padding-left: 24px;
+  background-color: #979493;
+  min-height: 100vh;
+  width: 100%;
   padding-right: 10px;
-  height: 100vh;
   margin-bottom: 20px;
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
+  bottom: 0;
+  margin-bottom: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+.details-popup .popup-container {
+  top: 0;
+  bottom: 0;
+  position: relative;
+  /* max-width: 80%; */
+  padding: 1rem;
+  background-color: #fff;
+  opacity: 1;
+  word-break: normal;
+  overflow: auto;
+  word-wrap: break-word;
+  height: 80%;
+  /* width: 90%; */
 }
 
 .popup-top {
@@ -647,6 +670,7 @@ ul#footer-list li {
 
 .close-cross {
   margin-top: 12px;
+  margin-right: 3rem;
 }
 
 .technologies {
@@ -681,14 +705,14 @@ ul#footer-list li {
   line-height: 24px;
   color: #344563;
   margin-top: 28px;
+  max-width: 77%;
 }
 
 .popup-buttons {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 19px;
+  gap: 0.3rem;
 }
 
 .popup-button {
