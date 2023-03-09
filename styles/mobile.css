@@ -368,8 +368,7 @@ ul#top-page-social-media-list li {
 
 .about-me-greetings {
   color: #ff6b00;
-  font-family: Crete "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Crete "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: normal;
   font-size: 76px;
   font-weight: 400;
@@ -670,13 +669,7 @@ ul#footer-list li {
 }
 
 .card-container {
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(../images/5_card-img.png);
-  height: 386px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(../images/5_card-img.png);
   width: 327px;
   justify-self: center;
   height: 100%;
