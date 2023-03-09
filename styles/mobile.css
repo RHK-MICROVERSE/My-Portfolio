@@ -642,11 +642,11 @@ ul#footer-list li {
   font-weight: 700;
   font-size: 20px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .close-cross {
-  margin-top: 12px;;
+  margin-top: 12px;
 }
 
 .technologies {
@@ -664,7 +664,7 @@ ul#footer-list li {
 }
 
 .popup-box {
-  color: #3C3A39;;
+  color: #3c3a39;
   padding: 10px 12px 10px 12px;
   border: 1px solid #8993a4;
 }
@@ -674,7 +674,7 @@ ul#footer-list li {
 }
 
 .popup-text {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -688,7 +688,7 @@ ul#footer-list li {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 19px; 
+  gap: 19px;
 }
 
 .popup-button {
@@ -702,7 +702,6 @@ ul#footer-list li {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  letter-spacing: 3%;
   background-color: #ff6b00;
   border: 2px solid #ff6b00;
   color: white;
@@ -713,13 +712,13 @@ ul#footer-list li {
 .seelive {
   gap: 12px;
   width: 134px;
-  padding: 0px 0px 0px 12px;
+  padding: 0 0 0 12px;
 }
 
 .seesource {
   gap: 18px;
   width: 159px;
-  padding: 0px 0px 0px 12px;
+  padding: 0 0 0 12px;
 }
 
 .popup-button:hover {

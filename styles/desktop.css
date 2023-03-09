@@ -3,10 +3,11 @@
   .mobile-header {
     display: none;
   }
+
   .mobile-menu {
     display: none;
   }
- 
+
   .desktop-header {
     background-color: #1c1a19;
     display: flex;
@@ -246,72 +247,66 @@
     display: none;
   }
 
-/* Project related to cards */
+  /* Project related to cards */
 
-.details-popup {
-  margin-left: 24px;
-  padding-right: 0px;
+  .details-popup {
+    margin-left: 24px;
+    padding-right: 0;
+  }
+
+  .popup-top {
+    padding: 24px 0 24px 0;
+    height: auto;
+  }
+
+  .popup-name {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+  .close-cross {
+    margin-top: 18px;
+    padding-right: 2px;
+  }
+
+  .technologies {
+    margin-bottom: 40px;
+    gap: 16px;
+  }
+
+  .img-text-button {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .img-snapshot-mobile {
+    display: none;
+  }
+
+  .img-snapshot-desktop {
+    display: inline-block;
+  }
+
+  .text-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popup-text {
+    margin-top: 2px;
+    padding-right: 12px;
+  }
+
+  .popup-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    padding-bottom: 5px;
+  }
 }
-
-.popup-top {
-  padding: 24px 0px 24px 0px;
-  height: auto;
-}
-
-.popup-name {
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-}
-
-.close-cross {
-  margin-top: 18px;
-  padding-right: 2px;
-}
-
-.technologies {
-  margin-bottom: 40px;
-  gap: 16px
-}
-
-.img-text-button {
-  display: flex;
-  flex-direction: row;
-  gap: 24px;
-}
-
-.img-snapshot-mobile {
-  display: none;
-}
-
-.img-snapshot-desktop {
-  display: inline-block;
-}
-
-.text-button {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-}
-
-.popup-text {
-  margin-top: 2px;
-  padding-right: 12px;
-}
-
-.popup-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content:flex-start;
-  align-items: flex-start;
-  gap: 24px; 
-  padding-bottom: 5px;
-}
-
-
-}
-
-
-
-
