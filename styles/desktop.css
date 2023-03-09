@@ -308,8 +308,7 @@
   }
 
   .close-cross {
-    margin-top: 18px;
-    padding-right: 2px;
+    margin-top: 12px;
   }
 
   .technologies {
@@ -347,7 +346,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 24px;
+    gap: 14px;
     padding-bottom: 5px;
   }
 }
