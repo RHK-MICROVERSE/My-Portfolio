@@ -196,9 +196,9 @@ function controlMobileMenu() {
         techLi.textContent = technology.name;
       });
       // update the popup description text based on the projects card text
-      const popupText = document.querySelector('#popup-text p') 
-      popupText.textContent = ''
-      popupText.textContent = detail.description
+      const popupText = document.querySelector('#popup-text p');
+      popupText.textContent = '';
+      popupText.textContent = detail.description;
     });
     // handle closing details popup
     const closePopups = document.querySelector('#close-cross');
