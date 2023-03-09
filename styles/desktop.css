@@ -170,6 +170,7 @@
   }
 
   /* Card  Starts Here */
+  
   .card-master {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -271,9 +272,6 @@
     z-index: 100;
     top: 0;
     left: 0;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     opacity: 0.9;
     object-fit: cover;
   }
@@ -289,8 +287,7 @@
     word-break: normal;
     overflow: auto;
     word-wrap: break-word;
-    /* height: 70%;
-    width: 90%; */
+    height: 80%;
   }
 
   .popup-top {
