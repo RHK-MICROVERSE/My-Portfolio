@@ -210,4 +210,26 @@ function controlMobileMenu() {
     });
   });
 }
+
 controlMobileMenu();
+
+// email form validation
+/*  form id="get-in-touch"
+    id="user-email"
+    submit button class = "btn-get"
+    error message class="form-email-error-message" */
+
+const emailInput = document.querySelector('#user-email');
+const submitButton = document.querySelector('.btn-get');
+const emailErrorMessage = document.querySelector('.form-email-error-message');
+function validationError(e) {
+  if ((emailInput.value).match(/[A-Z]/)) {
+    emailErrorMessage.style.display = 'block';
+    submitButton.type = 'button';
+    e.preventDefault();
+  } else {
+    emailErrorMessage.style.display = 'none';
+    submitButton.type = 'submit';
+  }
+}
+submitButton.addEventListener('click', validationError);

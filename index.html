@@ -369,6 +369,9 @@
                 <!--Define the email input-->
                 <li>
                   <input
+                    title="Not Valid"
+                    value=""
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}(\.[a-z]{2}+)?$"
                     class="common"
                     type="email"
                     placeholder="Email address"
@@ -389,6 +392,7 @@
                     required
                   ></textarea>
                 </li>
+                <p class="form-email-error-message">Please use lowercase on email!</p>
                 <li class="button">
                   <button type="submit" class="btn-get">Get in touch</button>
                 </li>

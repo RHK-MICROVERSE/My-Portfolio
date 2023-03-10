@@ -355,3 +355,10 @@
     padding-bottom: 5px;
   }
 }
+
+/* Validation of email in form */
+.form-email-error-message {
+  font-size: 15px;
+  font-family: "Crete Round", sans-serif;
+  margin-top: 1.1rem;
+}
