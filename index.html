@@ -23,7 +23,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-
   <body>
     <!--test change-->
     <!--MOBILE NAVGIGATION-->
@@ -346,61 +345,53 @@
           </div>
           <div class="from-details" id="contact">
             <!-- Get In Touch Form STARTs here-->
-            <form
-              id="get-in-touch"
-              action="https://formspree.io/f/mnqydzlw"
-              method="post"
-            >
+            <form id="get-in-touch" action="https://formspree.io/f/mnqydzlw" method="post">
               <!--Define the Full Name input-->
               <ul class="ul-form">
                 <li>
-                  <input
-                    class="common"
-                    type="text"
-                    placeholder="Full name"
-                    maxlength="30"
-                    name="fullname"
-                    required
-                    class="Name"
-                  />
+                  <input class="common"
+                         type="text" 
+                         placeholder="Full name" 
+                         maxlength="30" 
+                         name="fullname" 
+                         required
+                         id="name-input" />
                 </li>
                 <!--Creating A line divider-->
                 <div class="line"></div>
                 <!--Define the email input-->
                 <li>
-                  <input
-                    title="Not Valid"
-                    value=""
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}(\.[a-z]{2}+)?$"
-                    class="common"
-                    type="email"
-                    placeholder="Email address"
-                    name="email"
-                    required
-                    id="user-email"
-                  />
+                  <input title="Not Valid"
+                         value="" 
+                         class="common" 
+                         type="email" 
+                         placeholder="Email address" 
+                         name="email" 
+                         required
+                         id="user-email" />
                 </li>
                 <!--Creating A line divider-->
                 <div class="line"></div>
                 <!--Define Input Text Area-->
                 <li>
-                  <textarea
-                    class="textarea"
-                    placeholder="Enter text here"
-                    name="user-message"
-                    maxlength="500"
-                    required
-                  ></textarea>
+                  <textarea id="textarea-input" 
+                            placeholder="Enter text here" 
+                            name="user-message" 
+                            maxlength="500"
+                            required></textarea>
                 </li>
-                <p class="form-email-error-message">Please use lowercase on email!</p>
-                <li class="button">
-                  <button type="submit" class="btn-get">Get in touch</button>
+                <small class="validator-input"></small>
+                <li class="form-button">
+                  <button type="submit" 
+                          class="btn-get" 
+                          id="submit-form" 
+                          onclick="EmailValidation(event)">Get in touch</button>
                 </li>
               </ul>
             </form>
           </div>
         </div>
-        <!-- Get In Touch From ENDS-->
+            <!-- Get In Touch From ENDS-->
         <div class="get-in-touc-bottom">
           <div class="line-footer"></div>
           <!-- Social Media-->

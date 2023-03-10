@@ -538,7 +538,7 @@ form {
   background-color: #dbd8d7;
 }
 
-.textarea {
+#textarea-input {
   width: 327px;
   height: 114px;
   color: #3c3a39;
@@ -546,6 +546,14 @@ form {
   border: none;
   margin-top: 40px;
   padding: 12px;
+}
+
+.validator-green {
+  color: green;
+}
+
+.validator-red {
+  color: red;
 }
 
 .button {
