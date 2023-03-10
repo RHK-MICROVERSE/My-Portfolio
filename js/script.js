@@ -241,6 +241,7 @@ function getUpdatedInput(selected) {
   selected.addEventListener('change', alphaFunction);
 }
 
+
 visitorName = getUpdatedInput(uname);
 visitorEmail = getUpdatedInput(uemail);
 visitorMessage = getUpdatedInput(umessage);
@@ -271,4 +272,3 @@ function EmailValidation(e) {
     submitbtn.style.marginTop = '20px';
   }
 }
-
