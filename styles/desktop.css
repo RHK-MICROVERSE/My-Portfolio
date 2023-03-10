@@ -355,3 +355,9 @@
     padding-bottom: 5px;
   }
 }
+
+/* Validation of email in form */
+.form-email-error-message {
+  padding-left: 20%;
+  font-size: 15px;
+}
