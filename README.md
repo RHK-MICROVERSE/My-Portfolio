@@ -34,11 +34,11 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-> My Portfolio
+> My Portfolio Page
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">HTML and CSS have been used so far</a>
 
 > HTML and CSS have been used so far
 
