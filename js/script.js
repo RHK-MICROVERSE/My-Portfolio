@@ -234,4 +234,9 @@ function validationError(e) {
 }
 submitButton.addEventListener('click', validationError);
 
+// preserve data in the browser from local storage 
+function handleLocalStorage() {
+  // get the name, email and message
+  // store it in a object 
+} 
 
