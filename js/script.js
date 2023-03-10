@@ -213,7 +213,7 @@ function controlMobileMenu() {
 
 controlMobileMenu();
 
-// Form Validation and Local Storage
+// Form Validation and Local Storage Start Here
 function ReadElement(selected) {
   return document.querySelector(selected);
 }
@@ -271,3 +271,4 @@ function EmailValidation(e) {
     submitbtn.style.marginTop = '20px';
   }
 }
+// Form Validation and Local Storage END here
