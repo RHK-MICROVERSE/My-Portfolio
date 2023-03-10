@@ -240,6 +240,7 @@ function getUpdatedInput(selected) {
   selected.addEventListener('change', alphaFunction);
 }
 
+
 visitorName = getUpdatedInput(uname);
 visitorEmail = getUpdatedInput(uemail);
 visitorMessage = getUpdatedInput(umessage);
