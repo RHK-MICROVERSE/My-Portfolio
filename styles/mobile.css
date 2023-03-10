@@ -781,8 +781,6 @@ ul#footer-list li {
 
 /* Validation email in form */
 .form-email-error-message {
-  display: none;
   color: #f02031ef;
-  padding-left: 6%;
   letter-spacing: 0.5px;
 }
