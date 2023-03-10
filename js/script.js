@@ -233,4 +233,3 @@ function validationError(e) {
   }
 }
 submitButton.addEventListener('click', validationError);
-
