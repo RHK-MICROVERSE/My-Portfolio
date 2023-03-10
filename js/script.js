@@ -219,19 +219,17 @@ controlMobileMenu();
     submit button class = "btn-get"
     error message class="form-email-error-message" */
 
-const formInput = document.querySelector('#get-in-touch');
 const emailInput = document.querySelector('#user-email');
 const submitButton = document.querySelector('.btn-get');
 const emailErrorMessage = document.querySelector('.form-email-error-message');
 function validationError(e) {
-
   if ((emailInput.value).match(/[A-Z]/)) {
     emailErrorMessage.style.display = 'block';
-    submitButton.type = "button";
+    submitButton.type = 'button';
     e.preventDefault();
   } else {
     emailErrorMessage.style.display = 'none';
-    submitButton.type = "submit";
+    submitButton.type = 'submit';
   }
 }
 submitButton.addEventListener('click', validationError);
