@@ -213,10 +213,9 @@ function controlMobileMenu() {
 
 controlMobileMenu();
 
-/* Form Validation and Local Storage*/
-
+// Form Validation and Local Storage
 function ReadElement(selected) {
-  return document.querySelector(selected)
+  return document.querySelector(selected);
 }
 
 const uname = ReadElement('#name-input');
@@ -262,7 +261,7 @@ function EmailValidation(e) {
     validator.classList.add('validator-red');
     submitbtn.style.marginTop = '20px';
     e.preventDefault();
-  }
+  } 
   else {
     text = 'Email has been inserted in lowercase as required';
     validator.innerHTML = text;
@@ -271,4 +270,3 @@ function EmailValidation(e) {
     submitbtn.style.marginTop = '20px';
   }
 }
-
