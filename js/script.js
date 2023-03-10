@@ -269,5 +269,5 @@ function EmailValidation(e) {
     submitbtn.style.marginTop = '20px';
   }
 }
-submitButton.addEventListener('submit', EmailValidation);
+submitbtn.addEventListener('submit', EmailValidation);
 // Form Validation and Local Storage END here
