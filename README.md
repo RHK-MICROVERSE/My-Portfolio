@@ -38,7 +38,7 @@
 > My Portfolio Page is a project initated in the first module first week of the Microverse program. The purpose of the project is to create a professional portfolio.
 
 
-## 🛠 Walk thought <a name="walk-through"></a>
+## 🛠 Walk through <a name="walk-through"></a>
 
 You can [watch the loom video](https://www.loom.com/share/4679e5bb203e4d5aa4aea6bb67035886) for the walkthrough of this of this project.
 
