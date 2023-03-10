@@ -240,7 +240,6 @@ function getUpdatedInput(selected) {
   selected.addEventListener('change', alphaFunction);
 }
 
-
 visitorName = getUpdatedInput(uname);
 visitorEmail = getUpdatedInput(uemail);
 visitorMessage = getUpdatedInput(umessage);
@@ -262,8 +261,7 @@ function EmailValidation(e) {
     validator.classList.add('validator-red');
     submitbtn.style.marginTop = '20px';
     e.preventDefault();
-  } 
-  else {
+  } else {
     text = 'Email has been inserted in lowercase as required';
     validator.innerHTML = text;
     validator.classList.remove('validator-red');
@@ -271,4 +269,5 @@ function EmailValidation(e) {
     submitbtn.style.marginTop = '20px';
   }
 }
+submitButton.addEventListener('submit', EmailValidation);
 // Form Validation and Local Storage END here
