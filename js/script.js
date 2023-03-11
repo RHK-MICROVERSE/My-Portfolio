@@ -213,23 +213,61 @@ function controlMobileMenu() {
 
 controlMobileMenu();
 
-// email form validation
-/*  form id="get-in-touch"
-    id="user-email"
-    submit button class = "btn-get"
-    error message class="form-email-error-message" */
+// Form Validation and Local Storage Start Here
+function ReadElement(selected) {
+  return document.querySelector(selected);
+}
 
-const emailInput = document.querySelector('#user-email');
-const submitButton = document.querySelector('.btn-get');
-const emailErrorMessage = document.querySelector('.form-email-error-message');
-function validationError(e) {
-  if ((emailInput.value).match(/[A-Z]/)) {
-    emailErrorMessage.style.display = 'block';
-    submitButton.type = 'button';
+const uname = ReadElement('#name-input');
+const uemail = ReadElement('#user-email');
+const umessage = ReadElement('#textarea-input');
+const validator = ReadElement('.validator-input');
+const submitbtn = ReadElement('#submit-form');
+
+let visitorName;
+let visitorEmail;
+let visitorMessage;
+let visitorData = [];
+
+function getUpdatedInput(selected) {
+  function alphaFunction() {
+    visitorName = uname.value;
+    visitorEmail = uemail.value;
+    visitorMessage = umessage.value;
+    visitorData = [visitorName, visitorEmail, visitorMessage];
+    localStorage.setItem('visitorData', visitorData);
+  }
+  selected.addEventListener('change', alphaFunction);
+}
+
+visitorName = getUpdatedInput(uname);
+visitorEmail = getUpdatedInput(uemail);
+visitorMessage = getUpdatedInput(umessage);
+
+const alphaFormData = localStorage.getItem('visitorData');
+const alphaFormDataArray = alphaFormData.split(',');
+
+if (alphaFormDataArray.length > 0) {
+  [uname.value, uemail.value, umessage.value] = alphaFormDataArray;
+}
+
+function EmailValidation(e) {
+  const visitorEmail = uemail.value;
+  let text;
+  if (visitorEmail !== visitorEmail.toLowerCase() || visitorEmail === '') {
+    text = 'Email is required and email has to be in lowercase';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-green');
+    validator.classList.add('validator-red');
+    submitbtn.style.marginTop = '20px';
     e.preventDefault();
   } else {
-    emailErrorMessage.style.display = 'none';
-    submitButton.type = 'submit';
+    text = 'Email has been inserted in lowercase as required';
+    validator.innerHTML = text;
+    validator.classList.remove('validator-red');
+    validator.classList.add('validator-green');
+    submitbtn.style.marginTop = '20px';
   }
 }
-submitButton.addEventListener('click', validationError);
+submitbtn.addEventListener('submit', EmailValidation);
+// Form Validation and Local Storage END here
